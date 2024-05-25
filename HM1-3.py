@@ -1,5 +1,8 @@
 def sum_of_num(n):
-    print(n%9) 
+    if n % 9 == 0:
+        print(9)
+    else:
+        print(n%9)
 
 try:
     num = float(input("Введите число: "))
